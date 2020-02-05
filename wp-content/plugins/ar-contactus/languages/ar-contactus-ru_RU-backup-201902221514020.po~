@@ -1,0 +1,1284 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Contact Us all-in-one button\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-22 15:07+0000\n"
+"PO-Revision-Date: 2019-02-22 15:12+0000\n"
+"Last-Translator: admin <and.maruschenko@gmail.com>\n"
+"Language-Team: Русский\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.0; wp-5.0.3"
+
+#: classes/ArContactUsListTable.php:21
+msgctxt "Column label"
+msgid "User"
+msgstr "Пользователь"
+
+#: classes/ArContactUsListTable.php:22
+msgctxt "Column label"
+msgid "Phone"
+msgstr "Телефон"
+
+#: classes/ArContactUsListTable.php:23
+msgctxt "Column label"
+msgid "Created at"
+msgstr "Создано"
+
+#: classes/ArContactUsListTable.php:24
+msgctxt "Column label"
+msgid "Status"
+msgstr "Статус"
+
+#: classes/ArContactUsListTable.php:153
+msgctxt "List table bulk action"
+msgid "Delete"
+msgstr "Удалить"
+
+#: classes/ArContactUsListTable.php:154
+msgctxt "List table bulk action"
+msgid "Mark as new"
+msgstr "Отметить как новые"
+
+#: classes/ArContactUsListTable.php:155
+msgctxt "List table bulk action"
+msgid "Mark as done"
+msgstr "Отменить как готовые"
+
+#: classes/ArContactUsListTable.php:156
+msgctxt "List table bulk action"
+msgid "Mark as ignored"
+msgstr "Отметить как игнорируемые"
+
+#: classes/ArContactUsAdmin.php:49
+msgid "Settings updated"
+msgstr "Настройки обновлены"
+
+#: classes/ArContactUsAdmin.php:169 views/admin/callback-requests.php:3
+msgid "Settings"
+msgstr "Настройки"
+
+#: classes/ArContactUsAdmin.php:196
+msgid "Contact-us button"
+msgstr ""
+
+#: classes/ArContactUsAdmin.php:197 classes/ArContactUsAdmin.php:200
+msgid "Callbacks"
+msgstr ""
+
+#: controllers/ArContactUsRequestsController.php:129
+msgid "Phone is incorrect!"
+msgstr "Некорректный номер телефона"
+
+#: controllers/ArContactUsRequestsController.php:226
+msgid "Bot activity detected!"
+msgstr "Замечена подозрительная активность!"
+
+#: controllers/ArContactUsRequestsController.php:261
+msgid "The secret parameter is missing. Please check your reCaptcha Secret."
+msgstr ""
+
+#: controllers/ArContactUsRequestsController.php:262
+msgid ""
+"The secret parameter is invalid or malformed. Please check your reCaptcha "
+"Secret."
+msgstr ""
+
+#: controllers/ArContactUsRequestsController.php:263
+msgid "Bot activity detected! Empty captcha value."
+msgstr "Замечена подозрительная активность. Пустая капча"
+
+#: controllers/ArContactUsRequestsController.php:264
+msgid "Bot activity detected! Captcha value is invalid."
+msgstr "Замечена подозрительная активность. Не верное значение капчи."
+
+#: controllers/ArContactUsRequestsController.php:265
+msgid "The request is invalid or malformed."
+msgstr ""
+
+#: models/ArContactUsConfigModelAbstract.php:209
+#: models/ArContactUsConfigModelAbstract.php:223
+#: models/ArContactUsConfigModelAbstract.php:237
+#: models/ArContactUsModelAbstract.php:242
+#, php-format
+msgid "Incorrect \"%s\" value"
+msgstr "Некорректное значение \"%s\""
+
+#: models/ArContactUsConfigModelAbstract.php:483
+msgid "Enabled"
+msgstr "Разрешено"
+
+#: models/ArContactUsConfigModelAbstract.php:488
+msgid "Disabled"
+msgstr "Отключен"
+
+#: models/ArContactUsConfigModel.php:74
+msgid "Menu"
+msgstr "Меню"
+
+#: models/ArContactUsConfigModel.php:75
+msgid "Callback only"
+msgstr "Только форма обратного звонка"
+
+#: models/ArContactUsConfigModel.php:82
+msgid "Skype user"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:83
+msgid "Skype bot"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:90 models/ArContactUsConfigModel.php:99
+msgid "Large"
+msgstr "Большой"
+
+#: models/ArContactUsConfigModel.php:91 models/ArContactUsConfigModel.php:101
+msgid "Small"
+msgstr "Маленький"
+
+#: models/ArContactUsConfigModel.php:98
+msgid "Huge"
+msgstr "Огромный"
+
+#: models/ArContactUsConfigModel.php:100
+msgid "Medium"
+msgstr "Средний"
+
+#: models/ArContactUsConfigModel.php:108
+msgid "Left"
+msgstr "Слева"
+
+#: models/ArContactUsConfigModel.php:109
+msgid "Right"
+msgstr "Справа"
+
+#: models/ArContactUsConfigModel.php:116
+msgid "None"
+msgstr "Нет"
+
+#: models/ArContactUsConfigModel.php:117
+msgid "Solid"
+msgstr "Сплошная"
+
+#: models/ArContactUsConfigModel.php:118
+msgid "Dashed"
+msgstr "Пунктир"
+
+#: models/ArContactUsConfigModel.php:125
+msgid "Icon in circle"
+msgstr "Иконка с кругом"
+
+#: models/ArContactUsConfigModel.php:126
+msgid "Icon without circle"
+msgstr "Иконка без круга"
+
+#: models/ArContactUsConfigModel.php:133
+msgid "Above the button"
+msgstr "Над кнопкой"
+
+#: models/ArContactUsConfigModel.php:134
+msgid "Side of the button"
+msgstr "Сбоку кнопки"
+
+#: models/ArContactUsConfigModel.php:301
+msgid "Enable on mobile"
+msgstr "Отображать на мобильных устройствах"
+
+#: models/ArContactUsConfigModel.php:302
+msgid "Disable widget on pages"
+msgstr "Отключить виджет на страницах"
+
+#: models/ArContactUsConfigModel.php:303
+msgid "Sandbox mode"
+msgstr "Режим песочницы"
+
+#: models/ArContactUsConfigModel.php:304
+msgid "Allowed IPs"
+msgstr "Разрешенные IP адреса"
+
+#: models/ArContactUsConfigModel.php:306
+msgid "Button mode"
+msgstr "Режим кнопки"
+
+#: models/ArContactUsConfigModel.php:307
+msgid "Button icon"
+msgstr "Иконка кнопки"
+
+#: models/ArContactUsConfigModel.php:308
+msgid "Color theme"
+msgstr "Цветовая тема"
+
+#: models/ArContactUsConfigModel.php:309
+msgid "Button size"
+msgstr "Размер кнопки"
+
+#: models/ArContactUsConfigModel.php:311 models/ArContactUsConfigModel.php:321
+#: views/admin/_items_table.php:4 views/admin/_items_table.php:92
+#: views/admin/_prompt_table.php:4 views/admin/_prompt_table.php:45
+msgid "Position"
+msgstr "Позиция"
+
+#: models/ArContactUsConfigModel.php:312
+msgid "X-axis offset"
+msgstr "Смещение по X-оси"
+
+#: models/ArContactUsConfigModel.php:313
+msgid "Y-axis offset"
+msgstr "Смещение по Y-оси"
+
+#: models/ArContactUsConfigModel.php:314
+msgid "Pulsate speed"
+msgstr "Скорость пульсации"
+
+#: models/ArContactUsConfigModel.php:315
+msgid "Icon slider speed"
+msgstr "Скорость анимации иконок"
+
+#: models/ArContactUsConfigModel.php:316
+msgid "Icon slider animation pause"
+msgstr "Пауза между циклами анимации иконок"
+
+#: models/ArContactUsConfigModel.php:317
+msgid "Text"
+msgstr "Текст"
+
+#: models/ArContactUsConfigModel.php:318
+msgid "Enable button drag"
+msgstr "Перетаскивание кнопки"
+
+#: models/ArContactUsConfigModel.php:320 models/ArContactUsConfigModel.php:386
+#: models/ArContactUsConfigModel.php:387 models/ArContactUsConfigModel.php:388
+#: models/ArContactUsConfigModel.php:389 models/ArContactUsConfigModel.php:398
+#: models/ArContactUsConfigModel.php:403 models/ArContactUsConfigModel.php:409
+#: models/ArContactUsConfigModel.php:415 models/ArContactUsConfigModel.php:422
+msgid "Enable"
+msgstr "Разрешить"
+
+#: models/ArContactUsConfigModel.php:322
+msgid "Delay first message"
+msgstr "Задержка перед первым сообщением"
+
+#: models/ArContactUsConfigModel.php:323
+msgid "Loop mesages"
+msgstr "Повторять сообщения"
+
+#: models/ArContactUsConfigModel.php:324
+msgid "Close last message"
+msgstr "Закрывать последнее сообщение"
+
+#: models/ArContactUsConfigModel.php:325
+msgid "Typing time"
+msgstr "Время показа иммитации набора текста"
+
+#: models/ArContactUsConfigModel.php:326
+msgid "Message time"
+msgstr "Время отображения сообщения"
+
+#: models/ArContactUsConfigModel.php:327
+msgid "Show after closed"
+msgstr "Показывать снова после закрытия"
+
+#: models/ArContactUsConfigModel.php:329
+msgid "Items style"
+msgstr "Стиль элементов меню"
+
+#: models/ArContactUsConfigModel.php:330
+msgid "Items border"
+msgstr "Стиль рамки элемента меню"
+
+#: models/ArContactUsConfigModel.php:331
+msgid "Items border color"
+msgstr "Цвет рамки элемента меню"
+
+#: models/ArContactUsConfigModel.php:332
+msgid "Show header"
+msgstr "Показывать заголовок"
+
+#: models/ArContactUsConfigModel.php:333
+msgid "Header text"
+msgstr "Текст заголовка"
+
+#: models/ArContactUsConfigModel.php:334
+msgid "Show close button in header"
+msgstr "Показывать кнопку \"закрыть\" в заголовке"
+
+#: models/ArContactUsConfigModel.php:335
+msgid "Item subtitle color"
+msgstr "Цвет подзаголовка"
+
+#: models/ArContactUsConfigModel.php:336
+msgid "Hovered item subtitle color"
+msgstr "Цвет подзаголовка при наведении мыши"
+
+#: models/ArContactUsConfigModel.php:337
+msgid "Close button background color"
+msgstr "Цвет кнопки \"закрыть\""
+
+#: models/ArContactUsConfigModel.php:338
+msgid "Close button icon color"
+msgstr "Цвет иконки кнопки \"закрыть\""
+
+#: models/ArContactUsConfigModel.php:339
+msgid "Shadow size"
+msgstr "Размер тени"
+
+#: models/ArContactUsConfigModel.php:340
+msgid "Shadow opacity"
+msgstr "Непрозрачность тени"
+
+#: models/ArContactUsConfigModel.php:342
+msgid "Menu size"
+msgstr "Размер меню"
+
+#: models/ArContactUsConfigModel.php:343
+msgid "Menu background color"
+msgstr "Цвет фона меню"
+
+#: models/ArContactUsConfigModel.php:344
+msgid "Item title color"
+msgstr "Цвет заголовка"
+
+#: models/ArContactUsConfigModel.php:345
+msgid "Hovered item background color"
+msgstr "Цвет фона при наведении мыши"
+
+#: models/ArContactUsConfigModel.php:346
+msgid "Hovered item title color"
+msgstr "Цвет заголовка при наведении мыши"
+
+#: models/ArContactUsConfigModel.php:348
+msgid "Countdown"
+msgstr "Обратный отсчет"
+
+#: models/ArContactUsConfigModel.php:349 views/admin/config.php:133
+#: views/admin/_prompt_table.php:5 views/admin/_prompt_table.php:46
+msgid "Message"
+msgstr "Сообщение"
+
+#: models/ArContactUsConfigModel.php:350
+msgid "Phone field placeholder"
+msgstr "Плейсхолдер для номера телефона"
+
+#: models/ArContactUsConfigModel.php:351
+msgid "Phone mask"
+msgstr "Маска телефона"
+
+#: models/ArContactUsConfigModel.php:352
+msgid "Include jquery.maskedinput.min.js"
+msgstr "Включить jquery.maskedinput.min.js"
+
+#: models/ArContactUsConfigModel.php:353
+msgid "Enable phone mask"
+msgstr "Маска для номера телефона"
+
+#: models/ArContactUsConfigModel.php:354
+msgid "Proccess message"
+msgstr "Сообщение о процессе"
+
+#: models/ArContactUsConfigModel.php:355
+msgid "Success message"
+msgstr "Сообщение об успешной отправке запроса обратного звонка"
+
+#: models/ArContactUsConfigModel.php:356
+msgid "Fail message"
+msgstr "Сообщение при ошибке"
+
+#: models/ArContactUsConfigModel.php:357
+msgid "Button title"
+msgstr "Заголовок кнопки"
+
+#: models/ArContactUsConfigModel.php:358
+msgid "Enable Onesignal integration"
+msgstr "Интеграция с OneSignal"
+
+#: models/ArContactUsConfigModel.php:359
+msgid "Onesignal APP ID"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:360
+msgid "Onesignal Api Key"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:361
+msgid "Webpush message title"
+msgstr "Заголовок push сообщения"
+
+#: models/ArContactUsConfigModel.php:362
+msgid "Webpush message text"
+msgstr "Текст push сообщения"
+
+#: models/ArContactUsConfigModel.php:365
+msgid "Send email"
+msgstr "Отправлять письмо"
+
+#: models/ArContactUsConfigModel.php:366
+msgid "Email list"
+msgstr "Список email адресов"
+
+#: models/ArContactUsConfigModel.php:367
+msgid "Integrate with Google reCaptcha"
+msgstr "Интегрировать с Google reCaptcha"
+
+#: models/ArContactUsConfigModel.php:368
+msgid "Google reCaptcha Site Key"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:369
+msgid "Google reCaptcha Secret"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:370
+msgid "Hide Google reCaptcha logo"
+msgstr "Скрыть логотип Google reCaptcha"
+
+#: models/ArContactUsConfigModel.php:374
+msgid "Widget"
+msgstr "Виджет"
+
+#: models/ArContactUsConfigModel.php:375 models/ArContactUsConfigModel.php:377
+msgid "Site ID"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:384
+msgid "App ID"
+msgstr "ID приложения"
+
+#: models/ArContactUsConfigModel.php:391
+msgid "Facebook page ID"
+msgstr "ID страницы Facebook"
+
+#: models/ArContactUsConfigModel.php:392
+msgid "Initilize Facebook SDK"
+msgstr "Инициализировать Facebook SDK"
+
+#: models/ArContactUsConfigModel.php:393
+msgid "Color scheme"
+msgstr "Цветовая схема"
+
+#: models/ArContactUsConfigModel.php:394
+msgid "Language"
+msgstr "Язык"
+
+#: models/ArContactUsConfigModel.php:397
+msgid "VK page ID"
+msgstr "ID страницы VK"
+
+#: models/ArContactUsConfigModel.php:402
+msgid "Widget ID"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:407
+msgid "Skype ID/Microsoft App ID"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:408
+msgid "Set receiver"
+msgstr "Тип получателя"
+
+#: models/ArContactUsConfigModel.php:410
+msgid "Message color"
+msgstr "Цвет сообщения"
+
+#: models/ArContactUsConfigModel.php:414
+msgid "Account ID"
+msgstr "ID аккаунта"
+
+#: models/ArContactUsConfigModel.php:416
+msgid "Welcome message"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:417 models/ArContactUsConfigModel.php:425
+msgid "Height"
+msgstr "Высота"
+
+#: models/ArContactUsConfigModel.php:418 models/ArContactUsConfigModel.php:424
+msgid "Width"
+msgstr "Ширина"
+
+#: models/ArContactUsConfigModel.php:423
+msgid "Installation URL"
+msgstr "URL установки"
+
+#: models/ArContactUsConfigModel.php:426
+msgid "Popup width"
+msgstr "Ширина всплывающего окна"
+
+#: models/ArContactUsConfigModel.php:427
+msgid "Popup height"
+msgstr "Высота всплывающего окна"
+
+#: models/ArContactUsConfigModel.php:429
+msgid "Enable Twilio integration"
+msgstr "Интеграция с Twilio "
+
+#: models/ArContactUsConfigModel.php:430
+msgid "Twilio API Key"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:431
+msgid "Twilio Auth Token"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:432
+msgid "Twilio phone"
+msgstr "Номер телефона Twilio"
+
+#: models/ArContactUsConfigModel.php:433
+msgid "Send SMS to this phone"
+msgstr "Отправить SMS на этот номер телефона"
+
+#: models/ArContactUsConfigModel.php:434
+msgid "SMS text"
+msgstr "Текст СМС сообщения"
+
+#: models/ArContactUsConfigModel.php:436
+msgid "Enable telegram integration"
+msgstr "Интеграция с Telegram"
+
+#: models/ArContactUsConfigModel.php:437
+msgid "Telegram bot token"
+msgstr "Token Telegram бота"
+
+#: models/ArContactUsConfigModel.php:438
+msgid "Telegram chat id"
+msgstr "ID Telegram чата"
+
+#: models/ArContactUsConfigModel.php:439
+msgid "Telegram message"
+msgstr "Текст сообщения Telegram"
+
+#: models/ArContactUsConfigModel.php:446 models/ArContactUsConfigModel.php:447
+#: models/ArContactUsConfigModel.php:451 models/ArContactUsConfigModel.php:456
+#: models/ArContactUsConfigModel.php:457 models/ArContactUsConfigModel.php:459
+#: models/ArContactUsConfigModel.php:460 models/ArContactUsConfigModel.php:461
+#: models/ArContactUsConfigModel.php:462 models/ArContactUsConfigModel.php:463
+msgid "px"
+msgstr "пикс"
+
+#: models/ArContactUsConfigModel.php:448 models/ArContactUsConfigModel.php:449
+#: models/ArContactUsConfigModel.php:450 models/ArContactUsConfigModel.php:453
+#: models/ArContactUsConfigModel.php:454 models/ArContactUsConfigModel.php:455
+msgid "ms"
+msgstr "мс"
+
+#: models/ArContactUsConfigModel.php:452
+msgid "seconds"
+msgstr "секунд"
+
+#: models/ArContactUsConfigModel.php:458
+msgid "minutes"
+msgstr "минуты"
+
+#: models/ArContactUsConfigModel.php:571
+msgid "Set to 0 to disable countdown."
+msgstr "Укажите 0 для отключения обратного отсчета"
+
+#: models/ArContactUsConfigModel.php:573
+#, php-format
+msgid "One IP address per line. Your current IP %s"
+msgstr "Один IP адрес на строке. Ваш текущий IP %s"
+
+#: models/ArContactUsConfigModel.php:574
+msgid "If enabled, module will be shown from allowed IPs only."
+msgstr "Если разрешено, виджет будет виден только с разрешенных IP адресов."
+
+#: models/ArContactUsConfigModel.php:576
+msgid "One email per line."
+msgstr "Один email адрес на строке"
+
+#: models/ArContactUsConfigModel.php:577
+msgid ""
+"You can use Google reCaptcha to prevent bots from sending callback requests. "
+"This module uses invisible reCaptcha V3"
+msgstr ""
+"Вы можете использовать Google reCaptcha V3 для предотвращения отправки "
+"запросов ботами. Этот модуль использует невидимую reCaptcha V3"
+
+#: models/ArContactUsConfigModel.php:578
+msgid "You can get your Key here https://g.co/recaptcha/v3"
+msgstr "Вы можете получить Ваш ключ здесь https://g.co/recaptcha/v3"
+
+#: models/ArContactUsConfigModel.php:579
+msgid "You can get your Secret here https://g.co/recaptcha/v3"
+msgstr "Вы можете получить Ваш Secret здесь https://g.co/recaptcha/v3"
+
+#: models/ArContactUsConfigModel.php:580
+msgid ""
+"You can disable widget on several pages. Please use relative URLs. For "
+"example, to disable widget on home page write \"/\" (without qoutes). One "
+"URL per line."
+msgstr ""
+"Вы можете запретить плагин на нескольких страницах. Для этого используйте "
+"относительный URL. Например, чтобы запретить видежет на главной странице, "
+"напишите \"/\" (без ковычек). Один URL на строке."
+
+#: models/ArContactUsConfigModel.php:581
+msgid "Type 0 here to disable button animation"
+msgstr "Введите 0, чтобы отключить анимацию"
+
+#: models/ArContactUsConfigModel.php:582
+msgid "Pause beetwen slide icon animations loop"
+msgstr "Пауза между циклами анимации иконок"
+
+#: models/ArContactUsConfigModel.php:583
+msgid "Shadow size applied to menu, callback form and prompt messages"
+msgstr ""
+"Размер тени применим к меню, форме обратного звонка и автоматическим "
+"сообщениям"
+
+#: models/ArContactUsConfigModel.php:584
+msgid "From 0 to 1"
+msgstr "От 0 до 1"
+
+#: models/ArContactUsConfigModel.php:586 models/ArContactUsConfigModel.php:587
+#: models/ArContactUsConfigModel.php:588
+msgid ""
+"{phone} token will be replaced to phone entered in callback request form. "
+"{site} token will be replaced to site domain"
+msgstr ""
+"переменная {phone} будет заменена на номер телефона, введенный при заказе "
+"обратного звонка. Переменная {site} будет заменена на домен Вашего сайта."
+
+#: models/ArContactUsConfigModel.php:590
+msgid "Your Twilio phone in international format"
+msgstr "Ваш номер телефона Twilio в международном формате"
+
+#: models/ArContactUsConfigModel.php:591
+msgid "SMS message will be send to this phone number. Use international format"
+msgstr ""
+"SMS сообщение будет отправлено на этот номер телефона. Используйте "
+"международный формат"
+
+#: models/ArContactUsConfigModel.php:592
+msgid "SDK locale. For example: en_EN, ru_RU, fr_FR. Default: en_EN"
+msgstr "Локаль SDK. Например: en_EN, ru_RU, fr_FR. По умолчанию: en_EN"
+
+#: models/ArContactUsConfigModel.php:593
+msgid ""
+"You can disable Facebook SDK initialization to avoid conflicts with other "
+"modules that uses Facebook SDK"
+msgstr ""
+"Вы можете запретить инициализацию Facebook SDK если Вы используете другие "
+"плагины Facebook."
+
+#: models/ArContactUsConfigModel.php:594
+msgid "<b>X</b> means any number"
+msgstr "<b>X</b> означает любую цифру"
+
+#: models/ArContactUsConfigModel.php:595
+msgid ""
+"Please toggle off this option if you already using maskedinput.js on your "
+"site"
+msgstr ""
+"Отлкючите эту опцию если на Вашем сайте уже используется maskedinput.js"
+
+#: models/ArContactUsConfigModel.php:596
+msgid ""
+"You need to enable \"Community messages\" for your page in your page "
+"administration section"
+msgstr ""
+"Вам нужно разрешить \"Сообщения сообщества\" для Вашей странице в настройках."
+
+#: models/ArContactUsConfigModel.php:598
+msgid ""
+"To create new bot please write to bot t.me/botFather. Write /start then "
+"/newbot and follow instructions"
+msgstr ""
+"Для того чтобы создать бота, напишите /start боту t.me/botFather и следуйте "
+"инструкциям."
+
+#: models/ArContactUsConfigModel.php:599
+msgid ""
+"Messages will be received to this chatID. To know your chatID please write "
+"to bot t.me/userinfobot"
+msgstr ""
+"Сообщения будут отправлены на этот chatID. Для того, чтобы узнать Ваш chatID,"
+" пожалуйста напишите боту t.me/userinfobot"
+
+#: models/ArContactUsConfigModel.php:600
+msgid ""
+"This message will be received to your telegram. {phone} token will be "
+"replaced to phone entered in callback request form"
+msgstr ""
+"Это сообщение будет отправлено в Ваш telegram. Переменная {phone} будет "
+"заменена на номер телефона."
+
+#: models/ArContactUsConfigModel.php:602
+msgid "Zopim or Zendesk chat Widget ID"
+msgstr "ID чата Zopim или Zendesk "
+
+#: models/ArContactUsConfigModel.php:603
+msgid ""
+"Show prompt messages again if visitor has closed prompts after this interval "
+"(in minutes). Type 0 if you want to show prompts on next session. Type -1 to "
+"show prompts after page reload"
+msgstr ""
+"Показывать автоматические сообщения снова если посетитель закрыл их после "
+"указанного интервала (в минутах). Введите 0 если Вы хотите отображать "
+"автоматические сообщения в следующей сессии. Введите -1 для отображения "
+"автоматических сообщений при каждой перезагрузке страницы."
+
+#: models/ArContactUsConfigModel.php:623
+msgid "Tawk.to integration"
+msgstr "Интеграция с Tawk.to"
+
+#: models/ArContactUsConfigModel.php:625
+msgid "Crisp integration"
+msgstr "Интеграция с Crisp"
+
+#: models/ArContactUsConfigModel.php:627
+msgid "Intercom integration"
+msgstr "Интеграция с Intercom"
+
+#: models/ArContactUsConfigModel.php:629
+#: models/ArContactUsConfigLiveChat.php:77
+msgid "Facebook customer chat"
+msgstr "Facebook чат "
+
+#: models/ArContactUsConfigModel.php:631
+#: models/ArContactUsConfigLiveChat.php:80
+msgid "VK community messages"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:633
+#: models/ArContactUsConfigLiveChat.php:83
+msgid "Zendesk chat"
+msgstr "Zendesk чат"
+
+#: models/ArContactUsConfigModel.php:635
+msgid "Skype Web Control"
+msgstr ""
+
+#: models/ArContactUsConfigModel.php:638
+#: models/ArContactUsConfigLiveChat.php:89
+msgid "Zalo chat widget"
+msgstr "Виджет Zalo чат"
+
+#: models/ArContactUsConfigModel.php:639
+msgid "Facebook customer chat requires HTTPS for full functionality"
+msgstr "Facebook требует безопасное соединение по HTTPS"
+
+#: models/ArContactUsConfigModel.php:640
+msgid "Onesignal requires HTTPS"
+msgstr "OneSignal требует подключения по HTTPS "
+
+#: models/ArContactUsConfigModel.php:641
+#: models/ArContactUsConfigLiveChat.php:92
+msgid "Live helper chat"
+msgstr ""
+
+#: models/ArContactUsConfigMenuAbstract.php:26 views/admin/config.php:39
+msgid "Menu settings"
+msgstr "Настройки меню"
+
+#: models/ArContactUsConfigButtonAbstract.php:21 views/admin/config.php:36
+msgid "Button settings"
+msgstr "Настройки кнопки"
+
+#: models/ArContactUsConfigButtonAbstract.php:37
+msgid "Contact us"
+msgstr "Связаться"
+
+#: models/ArContactUsConfigPopup.php:49 views/admin/config.php:42
+msgid "Callback popup settings"
+msgstr "Настройки формы обратного звонка"
+
+#: models/ArContactUsConfigPopup.php:56
+msgid ""
+"Please enter your phone number\n"
+"and we call you back soon"
+msgstr ""
+"Пожалуйста введите Ваш номер телефона\n"
+"и мы перезвоним Вам"
+
+#: models/ArContactUsConfigPopup.php:57
+msgid "+XXX-XX-XXX-XX-XX"
+msgstr ""
+
+#: models/ArContactUsConfigPopup.php:59
+msgid "We are calling you to phone"
+msgstr "Мы звоним на указанный номер телефона"
+
+#: models/ArContactUsConfigPopup.php:60
+msgid ""
+"Thank you.\n"
+"We are call you back soon."
+msgstr ""
+"Спасибо.\n"
+"Мы перезвоним Вам в ближайшее время."
+
+#: models/ArContactUsConfigPopup.php:61
+msgid "Connection error. Please refresh the page and try again."
+msgstr "Ошибка соединения. Пожалуйста, обновите страницу и попробуйте еще раз."
+
+#: models/ArContactUsConfigPopup.php:62
+msgid "Waiting for call"
+msgstr "Жду звонка"
+
+#: models/ArContactUsConfigPopup.php:63
+msgid "New callback request from phone: {phone}"
+msgstr "Новый запрос обратного звонка с телефона: {phone}"
+
+#: models/ArContactUsConfigPopup.php:68
+msgid "New callback request"
+msgstr "Новый запрос обратного звонка"
+
+#: models/ArContactUsConfigPopup.php:69
+msgid "New callback request received from {site}. Please call to {phone}."
+msgstr ""
+"Новый запрос обратного звонка с сайта {site}. Пожалуйста, перезвоните на "
+"номер {phone}"
+
+#: models/ArContactUsConfigPopup.php:72
+msgid "New callback request received from {phone}"
+msgstr "Новый запрос обратного звонка {phone}"
+
+#: models/ArContactUsConfigGeneral.php:22
+msgid "General settings"
+msgstr "Основные настройки"
+
+#: models/ArContactUsConfigPromptAbstract.php:18 views/admin/config.php:45
+msgid "Prompt settings"
+msgstr "Настройки автоматических сообщений"
+
+#: models/ArContactUsConfigLiveChat.php:68
+msgid "Tawk.to"
+msgstr ""
+
+#: models/ArContactUsConfigLiveChat.php:71
+msgid "Crisp"
+msgstr ""
+
+#: models/ArContactUsConfigLiveChat.php:74
+msgid "Intercom"
+msgstr ""
+
+#: models/ArContactUsConfigLiveChat.php:86
+msgid "Skype web control"
+msgstr ""
+
+#: models/ArContactUsConfigLiveChat.php:150 views/admin/config.php:48
+msgid "Live chat integrations"
+msgstr "Интеграции"
+
+#: models/ArContactUsConfigLiveChat.php:178
+#: models/ArContactUsConfigLiveChat.php:183
+msgid "Field \"{label}\" is required"
+msgstr "Поле \"метка\" обязательно к заполнению"
+
+#: views/admin/_button.php:3 views/admin/_prompt.php:3 views/admin/_menu.php:3
+msgid "Desktop"
+msgstr "Компьютер"
+
+#: views/admin/_button.php:4 views/admin/_prompt.php:4 views/admin/_menu.php:4
+msgid "Mobile"
+msgstr "Мобильное устройство"
+
+#: views/admin/_prompt_items.php:4 views/admin/_items.php:9
+msgid "Add"
+msgstr "Добавить"
+
+#: views/admin/_about.php:6
+msgid "All-in-one contact us button"
+msgstr ""
+
+#: views/admin/_about.php:9
+msgid ""
+"This plugin displays contact button with customizable menu on every page. So "
+"your customers will able to contact you easily."
+msgstr ""
+"Этот плагин отображает кнопку для связи на всех страницах сайта. Теперь Ваши "
+"посетители смогут связаться с Вами в несколько кликов."
+
+#: views/admin/_about.php:12
+#, php-format
+msgid ""
+"We hope you would find this plugin useful and would have 1 minute to %s, "
+"this encourage our support and developers."
+msgstr ""
+"Мы надеемся, что этот плагин был полезен Вам и Вы найдете минутку для %s."
+
+#: views/admin/_about.php:12
+msgid "give us excellent rating"
+msgstr "поставить нам отличную оценку"
+
+#: views/admin/_about.php:15
+#, php-format
+msgid "If you like this plugin please follow us on %s."
+msgstr "Если Вам нравится этот плагин, пожалуйста подпишитесь на нас на %s"
+
+#: views/admin/_about.php:19
+msgid "5 stars"
+msgstr "5 звезд"
+
+#: views/admin/_about.php:23
+#, php-format
+msgid "If you have any questions or suggestions about this plugin, please %s"
+msgstr ""
+"Если у Вас есть вопросы или предложения по этому плагину, пожалуйста %s"
+
+#: views/admin/_about.php:23
+msgid "contact us"
+msgstr "связаться"
+
+#: views/admin/_about.php:26
+msgid "Also please checkout our other plugins that can help improve your site!"
+msgstr ""
+"Таже, пожалуйста, посмотрите наши другие плагины, которые могут улучшить Ваш "
+"сайт!"
+
+#: views/admin/_about.php:27
+msgid "View all our plugins &gt;&gt;&gt;"
+msgstr "Посмотреть все наши плагины &gt;&gt;&gt;"
+
+#: views/admin/_live_chats.php:4 views/admin/_menu.php:8
+#: views/admin/_items.php:4
+msgid ""
+"Current button mode is \"Callback only\". Menu is not displaying in this "
+"mode."
+msgstr ""
+
+#: views/admin/_requests.php:12
+msgid "All"
+msgstr "Все"
+
+#: views/admin/_requests.php:15 views/admin/partials/status.php:2
+msgid "New"
+msgstr "Новый"
+
+#: views/admin/_requests.php:18 views/admin/partials/status.php:6
+msgid "Done"
+msgstr "Готово"
+
+#: views/admin/_requests.php:21 views/admin/partials/status.php:10
+msgid "Ignored"
+msgstr "Игнорировать"
+
+#: views/admin/_items_table.php:5 views/admin/_items_table.php:93
+#: views/admin/config.php:178
+msgid "Icon"
+msgstr "Иконка"
+
+#: views/admin/_items_table.php:6 views/admin/_items_table.php:94
+#: views/admin/config.php:201
+msgid "Color"
+msgstr "Цвет"
+
+#: views/admin/_items_table.php:7 views/admin/_items_table.php:95
+#: views/admin/config.php:167
+msgid "Title"
+msgstr "Заголовок"
+
+#: views/admin/_items_table.php:8 views/admin/_items_table.php:96
+msgid "Type"
+msgstr "Тип"
+
+#: views/admin/_items_table.php:9 views/admin/_items_table.php:97
+msgid "Device"
+msgstr "Устройство"
+
+#: views/admin/_items_table.php:10 views/admin/_items_table.php:40
+#: views/admin/_items_table.php:98 views/admin/config.php:231
+#: views/admin/config.php:246
+msgid "Link"
+msgstr "Ссылка"
+
+#: views/admin/_items_table.php:11 views/admin/_items_table.php:99
+#: views/admin/_prompt_table.php:6 views/admin/_prompt_table.php:47
+msgid "Active"
+msgstr "Активно"
+
+#: views/admin/_items_table.php:42 views/admin/config.php:232
+#: views/admin/config.php:276
+msgid "Integration"
+msgstr "Интеграция"
+
+#: views/admin/_items_table.php:44 views/admin/config.php:233
+#: views/admin/config.php:292
+msgid "Custom JS code"
+msgstr "Произвольный JS код"
+
+#: views/admin/_items_table.php:46 views/admin/config.php:234
+msgid "Callback form"
+msgstr "Форма обратного звонка"
+
+#: views/admin/_items_table.php:51
+msgid "displays on desktop and mobile"
+msgstr "показывать на компьютерах и мобильных устройствах"
+
+#: views/admin/_items_table.php:56
+msgid "displays on desktop only"
+msgstr "показывать только на компьютерах"
+
+#: views/admin/_items_table.php:60
+msgid "displays on mobile only"
+msgstr "показывать только на мобильных устройствах"
+
+#: views/admin/_items_table.php:74 views/admin/_prompt_table.php:27
+msgid "Yes"
+msgstr "Да"
+
+#: views/admin/_items_table.php:74 views/admin/_prompt_table.php:27
+msgid "No"
+msgstr "Нет"
+
+#: views/admin/_items_table.php:79 views/admin/_prompt_table.php:32
+msgid "Edit"
+msgstr "Редактировать"
+
+#: views/admin/_items_table.php:83 views/admin/_prompt_table.php:36
+msgid "Delete"
+msgstr "Удалить"
+
+#: views/admin/callback-requests.php:2 views/admin/config.php:57
+msgid "Callback requests"
+msgstr "Запросы обратного звонка"
+
+#: views/admin/callback-requests.php:4
+msgid "Reload table"
+msgstr "Перезагрузить таблицу"
+
+#: views/admin/_data.php:3 views/admin/_data.php:33
+msgid "Export data"
+msgstr "Экспорт данных"
+
+#: views/admin/_data.php:8
+msgid "Export settings"
+msgstr "Экспортировать настройки"
+
+#: views/admin/_data.php:15
+msgid "Export menu items"
+msgstr "Экспортировать элементы меню"
+
+#: views/admin/_data.php:22
+msgid "Export prompt items"
+msgstr "Экспортировать автоматические сообщения"
+
+#: views/admin/_data.php:29
+msgid "Export callback requests"
+msgstr "Экспортировать запросы обратного звонка"
+
+#: views/admin/_data.php:38 views/admin/_data.php:55
+msgid "Import data"
+msgstr "Импортировать данные"
+
+#: views/admin/_data.php:40
+msgid "Warning!"
+msgstr "Внимание!"
+
+#: views/admin/_data.php:41
+msgid "All existing data will be loss!"
+msgstr "Все существующие данные будут утеряны!"
+
+#: views/admin/_data.php:44
+msgid "Import file (export.json)"
+msgstr "Файл для импорта (export.json)"
+
+#: views/admin/_data.php:51
+msgid "I accept that all existing data will be loss"
+msgstr "Я принимаю тот факт, что все данные будут утеряны"
+
+#: views/admin/config.php:10
+#, php-format
+msgid "All-in-one contact button %swith call-back request feature%s"
+msgstr ""
+
+#: views/admin/config.php:33
+msgid "General configuration"
+msgstr "Основные настройки"
+
+#: views/admin/config.php:51
+msgid "Prompt messages"
+msgstr "Автоматические сообщения"
+
+#: views/admin/config.php:54
+msgid "Menu items"
+msgstr "Элементы меню"
+
+#: views/admin/config.php:60
+msgid "Export/import"
+msgstr "Экспортировать/импорт"
+
+#: views/admin/config.php:63
+msgid "About"
+msgstr "О плагине"
+
+#: views/admin/config.php:122 views/admin/config.php:156
+#: views/admin/config.php:339
+msgid "Add item"
+msgstr "Добавить элемент"
+
+#: views/admin/config.php:143 views/admin/config.php:316
+msgid "Cancel"
+msgstr "Отмена"
+
+#: views/admin/config.php:146 views/admin/config.php:319
+#: views/helper/form.php:74
+msgid "Save"
+msgstr "Сохранить"
+
+#: views/admin/config.php:182 views/helper/form.php:52
+msgid "Select icon"
+msgstr "Выберите иконку"
+
+#: views/admin/config.php:213
+msgid "Display on"
+msgstr "Показывать на"
+
+#: views/admin/config.php:215
+msgid "Desktop and mobile"
+msgstr "Компьютер и мобильные устройства"
+
+#: views/admin/config.php:216
+msgid "Desktop only"
+msgstr "Только компьютер"
+
+#: views/admin/config.php:217
+msgid "Mobile only"
+msgstr "Только на мобильных устройствах"
+
+#: views/admin/config.php:229
+msgid "Action"
+msgstr "Действие"
+
+#: views/admin/config.php:250
+#, php-format
+msgid ""
+"You can set absolute or relative URL. Also you can use %scallback%s tag to "
+"generate callback request form."
+msgstr "Вы можете использовать абсолютный или относительный URL."
+
+#: views/admin/config.php:261
+msgid "Target"
+msgstr "Целевая страница"
+
+#: views/admin/config.php:263
+msgid "New window"
+msgstr "Новая вкладка"
+
+#: views/admin/config.php:264
+msgid "Same window"
+msgstr "Текущее окно"
+
+#: views/admin/config.php:296
+msgid ""
+"JavaScript code to run onclick. Please type here JavaScript code without <b>"
+"&lt;script&gt;</b> tag."
+msgstr ""
+"JavaScript код для запуска при клике. Пожалуйста пишите код JavaScript без "
+"тега <b>&lt;script&gt;</b> tag."
+
+#: views/admin/config.php:307
+msgid "Shortcode"
+msgstr "Шорткод"
+
+#: views/admin/config.php:338
+msgid "Edit item"
+msgstr "Редактировать элемент"
+
+#: views/admin/_onesignal.php:26
+msgid "Thanks for subscribing!"
+msgstr "Спасибо за подписку!"
+
+#: views/admin/_onesignal.php:43
+msgid "Subscribe to push notifications"
+msgstr "Подписаться на пуш уведомления"
+
+#: views/admin/_onesignal.php:44
+msgid "Unsubscribe from push notifications"
+msgstr "Отписаться от пуш уведомлений"
+
+#: views/admin/_callback.php:7
+msgid "Google reCaptcha V3"
+msgstr ""
+
+#: views/admin/_callback.php:9
+msgid ""
+"This module can be integrated with Google reCaptcha to prevent bots from "
+"sending callback requests."
+msgstr ""
+"Этот плагин может быть интегрирован с Google reCaptcha V3 для предотвращения "
+"автоматической рассылки запросов ботами."
+
+#: views/admin/_callback.php:12
+msgid ""
+"To use this integration you need to get reCaptcha V3 key and secret. Please "
+"follow this link:"
+msgstr ""
+"Для интеграции Вам нужно получить reCaptcha V3 ключ и secret. Перейдите по "
+"ссылке, чтобы сделать это:"
+
+#: views/admin/_callback.php:18
+msgid "Twilio"
+msgstr ""
+
+#: views/admin/_callback.php:20
+msgid "This module can be integrated with Twilio SMS service."
+msgstr ""
+"Этот плагин может быть интегрирован с Twilio для получения SMS о поступивших "
+"заказах обратного звонка."
+
+#: views/admin/_callback.php:23
+msgid ""
+"To use this integration you need to signup to Twilio. Please follow this "
+"link:"
+msgstr ""
+"Для интеграции Вам нужно получить зарегистрироваться на Twilio. Перейдите по "
+"ссылке, чтобы сделать это:"
+
+#: views/admin/_callback.php:29
+msgid "Onesignal"
+msgstr ""
+
+#: views/admin/_callback.php:31
+msgid "This module can be integrated with Onesignal webpush service."
+msgstr ""
+"Этот плагин может быть интегрирован с OneSignal для получения push "
+"уведомлений о поступивших заказах обратного звонка."
+
+#: views/admin/_callback.php:34
+msgid ""
+"To use this integration you need to signup to Onesignal. Please follow this "
+"link:"
+msgstr ""
+"Для интеграции Вам нужно получить зарегистрироваться на OneSignal. Перейдите "
+"по ссылке, чтобы сделать это:"
+
+#: views/mail/callback.php:25
+#, php-format
+msgid "Customer requested a callback at %s."
+msgstr "Посетитель заказал обратный звонок в %s"
+
+#: views/mail/callback.php:28
+#, php-format
+msgid "Please call ASAP to %s"
+msgstr "Пожалуйста, перезвоните на номер %s"
+
+#. Name of the plugin
+msgid "Contact Us all-in-one button"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Display contact us button with menu on every page. Callback request, "
+"reCaptcha V3 protection and many customizations!"
+msgstr ""
+"Отображает контактную кнопку на каждой странице сайта. Запрос обратного "
+"звонка, защита reCaptcha V3 и много настроек!"
+
+#. URI of the plugin
+msgid "https://plugins.areama.net/ar-contactus/docs/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Areama"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://areama.net/"
+msgstr ""

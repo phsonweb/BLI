@@ -1,0 +1,25 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+ .wccp-cart-products-store-block {
+  padding: 20px;
+  border: 2px dashed #ccc;
+  background: #efefef;
+
+  h3{
+    margin: 0 0 10px;
+    line-height: 1;
+  }
+  p {
+    margin: 0;
+    line-height: 1.5;
+
+    &.italic{
+      font-style: italic;
+      color: #a1a1a1;
+    }
+  }
+}
